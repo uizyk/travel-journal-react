@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    width: 100vw;
+    height: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: #F55A5A;
+    color: white;
+}
+
+.cardContainer {    
+    width: 470px;
+    height: 168px;
+    display: flex;
+    margin: auto;
+    padding: 30px 10px 0px 10px;
+    gap: 20px;
+}
+
+.textContainer {
+    
+    margin: auto;
+    /* padding-top: 15px; */
+}
+
+
+.cardImg {
+    max-width: 125px;
+    max-height: 200px;;
+    border-radius: 5px;
+}
+
+.locationLine{
+    font-size: 10px;
+    font-weight:100;
+    display: flex;
+    gap: 5px;
+    margin-bottom: -10px;
+}
+
+.fa-location-dot {
+    color: #F55A5A;
+}
+
+.location{
+    text-transform: uppercase;
+}
+
+.googleLink {
+    color: #918E9B;
+    
+}
+
+.title {
+    font-size: 25px;
+}
+
+.date {
+    font-weight: 700;
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 10px;
+    font-weight: 100;
+}
+
+hr{
+    width: 80vw;
+    size: 2em;
+}
+
